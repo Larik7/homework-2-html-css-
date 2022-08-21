@@ -2,6 +2,7 @@
   /* Fonts */
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+
   /* Text colors */
   --main-txt-cl: #212121;
   --second-txt-cl: #757575;
@@ -17,6 +18,7 @@
   --main-bg-cl: #ffffff;
   --second-bg-cl: #2F303A;
   --btn-filter-bg-cl: #F5F4FA;
+  --btn-filter-act-cl: #2196F3;
   --bnt-act-cl: #188CE8;
   --team-bg-cl: #F5F4FA;
 
@@ -87,7 +89,7 @@
 }
 
 /* Обрати внимание!!!! */
-.current {
+.site-nav .link.current {
   color: var(--accent-txt-cl);
 }
 
@@ -117,6 +119,12 @@
   background-color: var(--accent-txt-cl);
   cursor: pointer;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--bnt-act-cl);
+}
+
 
 .hero-button:active {
   background-color: var(--bnt-act-cl);
@@ -213,6 +221,11 @@
   color: var(--light-txt-cl-60);
 }
 
+.footer-section .link:hover,
+.footer-section .link:focus {
+  color: var(--accent-txt-cl)
+}
+
 /* portfolio */
 
 .portfolio-button {
@@ -223,13 +236,48 @@
   text-align: center;
   color: var(--main-txt-cl);
   background-color: var(--btn-filter-bg-cl);
+  cursor: pointer;
 }
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--btn-filter-act-cl);
+}
+
+.portfolio-button:active {
+  color: var(--light-txt-cl);
+  background-color: var(--btn-filter-act-cl);
+}
+
+.project-item {
+  background-color: var(--main-bg-cl);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-txt-cl);
+}
+
+.description-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--second-txt-cl);
+}
+
+
+
+
+
 
 /* фон fff */
 /* основной цвет текста #212121 */
 /* логотип #2196F3-веб #000000-студия */
 /* #2196F3 при фокусе и ховере, #212121 стандарт полож. */
 /* #757575 номер в шапке */
-/* #FFFFFF х1 */
+/* #FFFFFF в индекс фон h1  */
 /* #2196F3 фон кнопки, active button #188CE8 текст кнопки #FFFFFF  */
 /* #2F303A фон шапки с кнопкой*/
