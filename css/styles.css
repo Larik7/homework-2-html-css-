@@ -16,6 +16,7 @@
   --accent-bg-cl: #F5F5F5;
   --main-bg-cl: #ffffff;
   --second-bg-cl: #2F303A;
+  --btn-filter-bg-cl: #F5F4FA;
   --bnt-act-cl: #188CE8;
   --team-bg-cl: #F5F4FA;
 
@@ -212,6 +213,17 @@
   color: var(--light-txt-cl-60);
 }
 
+/* portfolio */
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  color: var(--main-txt-cl);
+  background-color: var(--btn-filter-bg-cl);
+}
 
 /* фон fff */
 /* основной цвет текста #212121 */
