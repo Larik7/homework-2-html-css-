@@ -242,6 +242,7 @@
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--btn-filter-act-cl);
+  color: var(--light-txt-cl);
 }
 
 .portfolio-button:active {
