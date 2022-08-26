@@ -75,12 +75,15 @@
   background-color: var(--main-bg-cl);
 }
 
+.contacts-nav .link {
+  color: var(--second-txt-cl);
+}
+
 .page-header .link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--main-txt-cl)
 }
 
 .page-header .link:hover,
